@@ -3,9 +3,13 @@
 *.a
 *.so
 
+.DS_Store
+
 # Folders
 _obj
 _test
+pkg
+bin
 
 # Architecture specific extensions/prefixes
 *.[568vq]
@@ -21,3 +25,6 @@ _testmain.go
 
 *.exe
 *.test
+
+# ignore go api, down from github
+src/github.com/dustin
